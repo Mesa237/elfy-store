@@ -1,0 +1,12 @@
+.cart-panel {
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0;
+}
