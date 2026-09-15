@@ -1,16 +1,43 @@
-# React + Vite
+# ELFY STORE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end e-commerce site built as a personal project to practice React and component-based UI development. This project is a work in progress.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ELFY STORE is a shopping site interface built from scratch with React and Vite. The goal was to move beyond coursework and build something independently — focusing on reusable components, layout, and a consistent visual identity.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** — component structure and UI logic
+- **Vite** — build tool and dev server
+- **CSS** — custom styling (no UI framework)
 
-## Expanding the ESLint configuration
+## Features Built So Far
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Navbar** — includes a logo, search bar, and account/categories/cart links with a purple hover accent
+- **Product Card component** — reusable card displaying product image, name, price, and an "Add to Cart" button
+- **Product Grid** — dynamically renders a list of products from a structured data array
+- **Custom visual identity** — purple accent theme (`#a855f7`) with a white main background contrasted against dark navigation and card elements
+
+## In Progress / Planned
+
+- Shopping cart functionality
+- Checkout flow
+- Product filtering/search functionality
+
+## Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/Mesa237/elfy-store.git
+cd elfy-store
+npm install
+npm run dev
+```
+
+The app will run locally at `http://localhost:5173` (or the port shown in your terminal).
+
+## Author
+
+Ariane Elfy Madjofo Sofouet
